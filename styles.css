@@ -1,0 +1,7 @@
+@font-face {
+        font-family: 'Norse Bold'; /* Choose a name for your font */
+        src: url('./media/Norse-Bold.otf') format('otf');
+        font-weight: normal; /* Define font weight if applicable */
+        font-style: normal;  /* Define font style if applicable */
+        font-display: swap; /* How the font is displayed while loading */
+    }
