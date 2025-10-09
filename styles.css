@@ -8,6 +8,7 @@
 
 *{
     flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 body {
@@ -15,6 +16,52 @@ body {
     flex-direction: row;
     box-sizing: border-box;
     margin: 0;
+}
+
+top {
+    display: flex;
+    font-size: large;
+    background-color: rgb(206, 206, 206);
+}
+top p {
+    padding:100px 80px 30px 40px;
+    text-align: left;
+}
+
+middle {
+    display: flex;
+    padding: 10px;
+    box-shadow: black 0px 0px 5px 0px;
+    margin-bottom: 20px;
+}
+
+middle label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+middle row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+middle group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 15px 0px;
+    flex: 1 1 auto;
+}
+
+form button {
+    background-color: rgb(41, 88, 23);
+    color: white;
+    font-size: large;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .splash{
@@ -59,8 +106,4 @@ body {
     color: white;
 }
 
-top {
-    display: block;
-    background-color: grey;
-    padding: 120px 5px;
-}
+
